@@ -5,23 +5,15 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=# --- Special core NetHunter for OnePlus 9/Pro --- #
+kernel.string=# --- Special core NetHunter --- #
 do.devicecheck=1
-do.modules=1
-do.systemless=0
+do.modules=0
+do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=OnePlus9Pro
-device.name2=lemonadep
-device.name3=OnePlus9ProTMO
-device.name4=lemonadept
-device.name5=OnePlus9
-device.name6=lemonade
-device.name7=OnePlus9TMO
-device.name8=lemonadet
-device.name9=OnePlus9VZW
-device.name10=lemonadev
-supported.versions=14 - 15
+device.name1=MotorolaEdge30Fusion
+device.name2=tundra
+supported.versions=15 - 16
 '; } # end properties
 
 ## trim partitions
