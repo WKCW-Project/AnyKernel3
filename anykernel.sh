@@ -11,8 +11,7 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=MotorolaEdge30Fusion
-device.name2=tundra
+device.name1=fogos
 supported.versions=15 - 16
 '; } # end properties
 
